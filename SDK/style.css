@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+* {
+    box-sizing: border-box;
+  }
+    
+  .header {
+    background-color: #2346f7;
+    padding: 8px 40px;
+    color: white;
+    text-align: center;
+  }
+  
+  
+  .header:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .container1 {
+    margin-top: 10px;
+    
+    padding: 50px;
+    
+    float: left;
+    width: 50%;
+    line-height: 60px;
+    height: auto;
+    border-right: solid rgb(14, 94, 56);
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+
+  label{position: relative;
+    margin-left: 40px;
+    color: rgba(9, 39, 9, 0.973);
+    font-size: 18px;
+  
+  
+  }
+
+  input[type=text] {
+    width: 300px;
+    border: 2px solid rgba(128, 128, 128, 0.596);
+    border-radius: 6px;
+    padding: 8px;
+    position: relative;
+    float: right;
+    font-size: 16px;
+    margin-right: 30px;
+    background: #f1f1f1;
+  }
+
+  input[type=radio] {
+  
+   margin-left: 180px;
+   
+  }
+
+  #genderf{
+  
+    margin-left: 287px;
+    
+   }
+
+   
+
+  button{
+    position: relative;
+    cursor: pointer;
+    transition: 0.3s;
+    height: 40px;
+    width: 140px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f1f1f1;
+    text-align: center;
+    border-radius: 8px;
+    border: none;
+  }
+
+  #submit{
+    background-color: #397bdfe7;
+    margin-left: 150px;
+    width: 160px;
+  }
+
+  #clear{
+    margin-left: 20px;
+    background-color: #b12f07;
+  }
+
+  #submit:hover,#clear:hover  {
+    background-color: #3d853f; 
+    color: white;
+  }
+
+.Container2{
+  text-align: center; 
+  margin-left: 50%;
+  margin-top: 10px;
+  
+  
+}
+
+#etitle{
+  font-size: 23px;
+  font-weight: bold;
+}
+
+table{
+ 
+  margin-top: 60px;
+  text-align: left;
+  width: 80%;
+}
+
+td, th {
+  border:2px solid #b7dd8c9d;
+  text-align: left;
+  padding: 8px;
+
+}
+
+tr:nth-child(even) {
+  background-color: #e2eccf8f;
+}
+tr:nth-child(odd) {
+  background-color: #b2ce92e7;
+}
+
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+img{
+  height: 100px;
+  width: auto;
+}

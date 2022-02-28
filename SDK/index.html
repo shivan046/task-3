@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Enrollment Form</title>
+    <link rel="Stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <div id="myDIV" class="header">
+        <h2>Student Enrollment Form</h2>
+      </div>
+
+      <!-- <form > -->
+        <div class="row">
+        <div class="container1"  >
+ 
+          <label for="lname"><b>Name * :</b></label>
+          <input type="text" name="name" id="name" required><br>
+     
+          <label for="lemail"><b>Email * :</b></label>
+          <input type="text" name="email" id="email" required><br>
+  
+
+          <label for="lwebsite"><b>Website :</b></label>
+          <input type="text" name="website" id="website" ><br>
+
+          <label for="llink"><b>Image Link :</b></label>
+          <input type="text" name="link" id="link" ><br>
+
+          <label for="lgender"><b>Gender</b></label>
+            <input type="radio" name="gender" value="Male" id="genderm"  checked="checked">
+            <label for="lgender" id="gen" >Male</label><br>
+            <input type="radio" name="gender" value="Female"  id="genderf">
+            <label for="lgender" id="gen" >Female</label><br>
+          
+        <div class="skill">
+        <label for="lskill"><b>Skill</b></label>
+        
+        <label for="ljava">Java</label>
+        <input type="checkbox" name="java" id="java">
+        <label for="lhtml">HTML</label>
+        <input type="checkbox" name="html" id="html">
+        <label for="lcss">CSS</label>
+        <input type="checkbox" name="css" id="css"><br><br>
+        </div>
+
+          <button type="submit" id="submit">Enroll Student</button>
+          <button type="reset" id="clear" >Clear</button>
+       
+        </div>
+    
+      <!-- </form>  -->
+
+
+<div class="Container2">
+<label for="enroll" id="etitle">Enrolled Students</label>
+
+<table id="display" class="center">
+<tr>
+  <th style="width:80%">Description </th>
+  <th style="width:20%">Image</th>
+</tr>
+<tr>
+  <td>
+    Tony<br>
+    Male<br>
+    toni.jh@gmail.com<br>
+    www.tonystarkcom<br>
+    Java,javascript<br>
+  </td>
+  <td><img src="D:\Downloads\images1.png"></td>
+</tr>
+<tr>
+  <td>
+    John <br>
+    Male<br>
+    jhn.r@gmail.com<br>
+    www.macrthy.com<br>
+    Java,php<br>
+  </td>
+  <td><img src="D:\Downloads\images2.png"></td>
+</tr>
+
+
+
+</table>
+
+</div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
